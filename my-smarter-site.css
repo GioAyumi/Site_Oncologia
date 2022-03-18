@@ -3,9 +3,18 @@ p {
     font-size: 1.2em;
     
 }
+p.foot{
+    margin: 1em 2em 0em 2em;
+    text-align: center;
+}
 h1{
     margin: 0em 2em 0em 2em;
     text-align: center;
+    
+}
+.titulo{
+    color:#7A413B;
+    font-size:1.3em;
     
 }
 h3.linha2 {
@@ -41,7 +50,7 @@ h2{
     color:#7A413B
 }
 p.more-readable {
-    text-indent: 1em;
+    text-indent: 0em;
     text-align: justify;
     margin: 0em 2em 0em 2em
 }
@@ -59,9 +68,12 @@ p.offset {
 p.boxed {
     border: 5px dotted #B7E6EB
 }
-a:link, a:visited { 
+a.cabecalho:link, a.cabecalho:visited { 
     color: white;
     text-decoration: none;
+}
+a.linkfinal:link,a.linkfinal:visited {
+     color: #15838f;
 }
 a:hover{
     color: #7A413B ;
@@ -71,9 +83,9 @@ body {
 }
 footer{
     background-color: #F1AC92;
-    position: absolute;
-    bottom: 0;
-    height: 80px;
+    position:absolute;
+    bottom: -15em;
+    height: 100px;
     width: 100%;
     text-align: center;
     margin: 0em 0em -25em 0em;
