@@ -1,2 +1,2 @@
-# Site_exercicio1_faculdade
-Primeira atividade da faculdade utilizando html5 e css.
+# Site_exercicio_1_faculdade
+Primeira atividade da faculdade utilizando HTML5 e css.
